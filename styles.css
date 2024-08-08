@@ -1,0 +1,480 @@
+* html {
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+    color: black;
+    font-family: 'Roboto';
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+body{
+    background-color: floralwhite;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Login-button {
+    color: #308d46;
+    background-color: #bcecc7;
+    padding: 8px;
+    margin-right: 8px;
+    padding-bottom: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+    color: black;
+    font-family: 'Roboto';
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+a:any-link {
+    color: #29df53
+}
+a:hover,a:focus{
+    color: #308d46;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#banner {
+    width: 100%;
+    padding-left: 0px;
+    height: 60px;
+}
+
+#navbar {
+    padding: 8px;
+    margin: 0;
+    
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+    font-size: 1.25rem;
+}
+
+#team {
+    width: 50%;
+    margin: 0;
+}
+
+#teamimage {
+    border-radius: 20px;
+    width: 100%;
+    border-style: ridge;
+    border-color: #308d46;
+}
+
+h2 {
+    text-align: center;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 9px;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+.apply {
+    float: right;
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: #308d46;
+    font-family: sans-serif;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding:0 8px;
+}
+.form-group textarea{
+    width:80%;
+    font-family: roboto;
+}
+.form-group input[type="checkbox"]{
+    width:16px;
+    height:16px;
+}
+.form-group input[type="submit"]{
+    text-align: center;
+    height:30px;
+    border:1px solid #308d46;
+    background-color: #47b561;
+    color: floralwhite;
+    font-weight: 500;
+    padding: 16px 16px 16px 16px;
+}
+.form-group{
+    margin: 16px 0;
+}
+#applicationform label{
+    font-weight: 600;
+}
+#applicationform input,select,textarea{
+    padding: 3px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: 300;
+    border-radius: 5px;
+    border:1px solid #308d46;
+}
+
+#footer {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    background-color: #308d46;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+
+.footer-link {
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.footer-link a[href*="courses"] {
+    color: white;
+}
+
+.footer-link a[href*="programs"] {
+    color: white;
+}
+
+.footer-link a[href*="youtube"] {
+    color: white;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 2px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.jobs-header-row th {
+    border: 1px solid white;
+    padding: 8px;
+    background-color: #308d46;
+    text-align: center;
+}
+
+.jobs-data-row td {
+    border-right: 1px solid white;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: #63fe87;
+    color: black;
+}
+
+#jobs-table tr:nth-child(even) {
+    background-color: #72917a;
+    color: black;
+}
+
+#tabledata:hover {
+    background-color: white;
+    border-style:ridge;
+    border-right: ridge;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition-duration: 0.25s;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: #308d46;
+}
+
+button:hover {
+    background-color: rgba(25, 23, 23, 0.694);
+    color: #29df53;
+    transition-duration: 0.20.2s;
+    transition-property: all;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px green;
+}
+
+#button-col {
+    border-radius: 5px;
+    background-color: rgb(209, 62, 18);
+    font-family: "Montserrat";
+    text-align: justify;
+    border-color: rgb(209, 62, 18);
+    align-self: center;
+}
+
+#side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Contain {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 0.5px;
+    background-color: floralwhite;
+    margin-bottom: 20px;
+}
+
+#menu-icon {
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#home-icon {
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.Menu {
+    padding-top: 0px;
+    caret-color: #22a440;
+}
+
+#Learn {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#python {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#atom {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#html {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#machinelearning {
+    margin-left: 40px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+#DeepLearning {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#datascience {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#c {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#Menu {
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: black;
+}
+
+#Home {
+    margin-left: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#learn {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#Java {
+    margin-left: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#Python {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#JavaScript {
+    margin-left: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#React {
+    margin-left: 40px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#SQL {
+    margin-left: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#HTML {
+    margin-left: 40px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#CSS {
+    margin-left: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#MachineLearning {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#DeepLearning {
+    margin-left: 8px;
+    font-size: small;
+    color: #000000;
+}
+
+#AI {
+    margin-left: 8px;
+    font-size: small;
+    color: #000000;
+}
+
+#DS {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#linux {
+    margin-left: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#C {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 0px;
+    font-size: small;
+    color: #000000;
+}
+
+#Menu:hover,
+#Home:hover,
+#learn:hover,
+#Java:hover,
+#Python:hover,
+#JavaScript:hover,
+#React:hover,
+#SQL:hover,
+#HTML:hover,
+#CSS:hover,
+#MachineLearning:hover,
+#DeepLearning:hover,
+#AI:hover,
+#DS:hover,
+#C:hover,
+#linux:hover {
+    text-decoration: underline;
+    color: #308d46;
+    font-style: italic;
+    font-weight: bold;
+}
+
